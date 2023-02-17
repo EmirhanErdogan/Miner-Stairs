@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d32303a1e24704a98df77be46e2b50, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  Levels: []
+  ActiveLayerCount: 46
+  Pickaxes:
+  - {fileID: 0}
+  PickaxesPrefab:
+  - {fileID: 609982625284942985, guid: 67e0316f2ce150343912c9a1cc471f73, type: 3}
+  - {fileID: 6187047020344254371, guid: c575a165704a6c64e9cffdb6c2987a2d, type: 3}
+  - {fileID: 1190644461490258185, guid: 9b95ca82698e5b44abc39dfa081f88af, type: 3}
+  - {fileID: 2252568484508666806, guid: c53ac7352f88e884b86184f1b4c61c85, type: 3}
+  - {fileID: 8561952727002603143, guid: 9be3bf78d101d2f45922a08e455ed9f6, type: 3}
+  - {fileID: 4804178861493924933, guid: 306f1820661a3094a8b649f024946766, type: 3}
+  - {fileID: 6116693628755394781, guid: 4abc0f894d5be264c9b0d05ec2cb6758, type: 3}
+  - {fileID: 5137412013657969762, guid: 1b061ebf4f034a145b6f0199cb1e5ea5, type: 3}
+  - {fileID: 7600928791540730447, guid: e0a6a523b38efeb48aa96118eeabecf7, type: 3}
+  GatePrefab: {fileID: 1677616423138635111, guid: cf3bd39f0592d0142b360a5680961a61, type: 3}
+  ChestPrefab: {fileID: 7528337104736333539, guid: cf9b4d24685660747be749f23b6ef91f, type: 3}
+  GateColor:
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0.27450982, g: 0.4745098, b: 0.6862745, a: 1}
+  - {r: 1, g: 0.48125744, b: 0, a: 1}
+  - {r: 0, g: 0.7075472, b: 0.12256717, a: 1}
+  - {r: 1, g: 0, b: 0.8916426, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  AddPickaxeButton: 100
+  AddGateButton: 100
+  MergePickaxeButton: 100
+  AddLayerButton: 100
+  AxeAddPrice: 640000005e010000f4010000ee020000a4060000c4090000a00f000070170000401f0000d4300000983a0000204e000030750000b8880000409c000050c3000018f60000880d0100f824010018730100
+  GateAddPrice: 90010000200300004006000060090000f00a0000100e0000c012000070170000201c0000b01d000010270000e02e0000b0360000983a00005c440000204e0000e4570000a86100006c6b000030750000b8880000409c0000c8af000050c3000060ea00007011010080380100905f0100a0860100b0ad0100
+  AxeMergePrice: dc05000088130000d4300000204e0000a86100007869000030750000b888000070940000409c000050c3000060ea00007011010080380100905f010018730100a0860100c0d40100f04902001098020060e31600a0252600e0673500a02e630060f59000
+  LayerAddPrice: e8030000c4090000581b0000e02e000050460000a8610000409c0000f8240100
+  DefaultButtonColor: {r: 0.5137255, g: 0.7019608, b: 1, a: 1}
+  DeactiveButtonColor: {r: 0.35739127, g: 0.3782391, b: 0.41099998, a: 1}
+  ChestDestroyTimer: 120
